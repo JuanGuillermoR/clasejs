@@ -50,10 +50,10 @@ const b = 20;
 
 // No pondre la palabra return ya que al solo tener una linea el return se hace implicitamente
 function sumar(a,b) {
-  resultado = a+b;
+  const resultado = a+b;
 }
 
-sumar(console.log(`Este es el resultado de la suma en una funcion ${resultado}`));
+console.log(sumar());
 
 const f = function(){
   console.log('Un elemento');
