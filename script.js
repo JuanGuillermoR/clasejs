@@ -1,4 +1,4 @@
-let nombre = 'Juan';
+/*let nombre = 'Juan';
 console.log(`Hola tú nombre es ${nombre}`);
 
 const numero = 10+2;
@@ -41,3 +41,21 @@ if (resultado !== null) {
   resultadoHTML.textContent = 'El elemento no se encuentra en el array :(';
 }
 document.body.appendChild(resultadoHTML);
+*/
+
+const letters = ['a','b','c','d']
+
+const a = 10;
+const b = 20;
+
+// No pondre la palabra return ya que al solo tener una linea el return se hace implicitamente
+function sumar(a,b) {
+  resultado = a+b;
+}
+
+sumar(console.log(`Este es el resultado de la suma en una funcion ${resultado}`));
+
+const f = function(){
+  console.log('Un elemento');
+}
+letters.forEach(f);
