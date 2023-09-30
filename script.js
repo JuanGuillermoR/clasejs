@@ -44,18 +44,14 @@ document.body.appendChild(resultadoHTML);
 */
 
 const letters = ['a','b','c','d']
-
-const a = 10;
-const b = 20;
-
+let i = 2;
 // No pondre la palabra return ya que al solo tener una linea el return se hace implicitamente
-function sumar(a,b) {
-  const resultado = a+b;
-}
-
-console.log(sumar());
-
 const f = function(){
-  console.log('Un elemento');
+    console.log('Un elemento',letters[i]);
 }
 letters.forEach(f);
+
+const sumar = (a,b) =>{
+    console.log('resultado = ', a + b); 
+}
+sumar(10,20);
