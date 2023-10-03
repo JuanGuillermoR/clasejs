@@ -68,4 +68,5 @@ console.log(arreglo); // Salida: [1, 2, 0, 0, 5]
 const arreglo2 = [1, 2, 3, 4, 5];
 const fillArrow = (arr, value, start, end) => arr.fill(value, start, end);
 fillArrow(arreglo2, 0, 2, 4); // Salida: [1, 2, 0, 0, 5]
-console.log(arreglo2);
+document.write(arreglo2);
+//console.log(arreglo2);
