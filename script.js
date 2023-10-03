@@ -43,6 +43,7 @@ if (resultado !== null) {
 document.body.appendChild(resultadoHTML);
 */
 
+/*
 const letters = ['a','b','c','d']
 let i = 2;
 // No pondre la palabra return ya que al solo tener una linea el return se hace implicitamente
@@ -55,3 +56,16 @@ const sumar = (a,b) =>{
     console.log('resultado = ', a + b); 
 }
 sumar(10,20);
+*/
+
+//  02/10/2023
+// Método fill() con una función tradicional
+const arreglo = [1, 2, 3, 4, 5];
+arreglo.fill(0, 2, 4); // Llena el arreglo con 0 desde el índice 2 al 3
+console.log(arreglo); // Salida: [1, 2, 0, 0, 5]
+
+// Método fill() con una función de flecha
+const arreglo2 = [1, 2, 3, 4, 5];
+const fillArrow = (arr, value, start, end) => arr.fill(value, start, end);
+fillArrow(arreglo2, 0, 2, 4); // Salida: [1, 2, 0, 0, 5]
+console.log(arreglo2);
