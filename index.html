@@ -31,7 +31,7 @@
       const products = await obtenerProductos();
 
       let productos = "";
-      products.forEach((product) => {
+      products.test.forEach((product) => {
     localStorage.setItem(`product_${product.id}`, JSON.stringify(product));
         productos += `
           <div class="card" style="width: 18rem;">
