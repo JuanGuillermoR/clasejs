@@ -66,6 +66,10 @@
     } else {
       // Si el producto no está en localStorage, muestra un mensaje de que no se ha encontrado.
       console.log('Producto no encontrado en el almacenamiento local.');
+      const detallesContainer = document.querySelector('.detalles-producto');
+      detallesContainer.innerHTML = `
+        <h2>Producto no encontrado en el almacenamiento local.</h2>
+      `;
     }
 
   </script>
